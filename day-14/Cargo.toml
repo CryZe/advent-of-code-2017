@@ -1,0 +1,15 @@
+[package]
+name = "day-14"
+version = "0.1.0"
+authors = ["Christopher Serr <christopher.serr@gmail.com>"]
+
+[dependencies]
+arrayvec = "0.4.6"
+rayon = "0.9.0"
+
+[profile.release]
+panic = "abort"
+lto = true
+
+[profile.bench]
+lto = true

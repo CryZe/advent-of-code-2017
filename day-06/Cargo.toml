@@ -1,0 +1,8 @@
+[package]
+name = "day-06"
+version = "0.1.0"
+authors = ["Christopher Serr <christopher.serr@gmail.com>"]
+
+[dependencies]
+arrayvec = "0.4.6"
+fxhash = "0.2.1"

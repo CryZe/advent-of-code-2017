@@ -1,0 +1,13 @@
+[package]
+name = "day-13"
+version = "0.1.0"
+authors = ["Christopher Serr <christopher.serr@gmail.com>"]
+
+[dependencies]
+arrayvec = "0.4.6"
+rayon = "0.9.0"
+fxhash = "0.2.1"
+
+[profile.release]
+debug = true
+panic = 'abort'

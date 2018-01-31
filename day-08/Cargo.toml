@@ -1,0 +1,14 @@
+[package]
+name = "day-08"
+version = "0.1.0"
+authors = ["Christopher Serr <christopher.serr@gmail.com>"]
+
+[dependencies]
+arrayvec = "0.4.6"
+fxhash = "0.2.1"
+rayon = "0.9.0"
+cretonne = { git = "https://github.com/stoklund/cretonne" }
+cretonne-frontend = { git = "https://github.com/stoklund/cretonne" }
+cretonne-native = { git = "https://github.com/stoklund/cretonne" }
+cretonne-wasm = { git = "https://github.com/stoklund/cretonne" }
+mmap = "0.1.1"
